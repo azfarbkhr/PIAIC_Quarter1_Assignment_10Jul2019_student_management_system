@@ -44,8 +44,24 @@ l_student = {
 }
 
 l_students = [
-    {"name": "Syed Ali", "age": "26", "student_number": "0123912381"},
-    {"name": "Syed Fashi", "age": "22", "student_number": "01111111"}
+    {"name": "Syed", "age": "26", "student_number": "0123912381"},
+    {"name": "Fashi", "age": "22", "student_number": "01111111"},
+    {"name": "Syed", "age": "26", "student_number": "0123912381"},
+    {"name": "Syed", "age": "26", "student_number": "0123912381"},
+    {"name": "Syed", "age": "26", "student_number": "0123912381"},
+    {"name": "Syed", "age": "26", "student_number": "0123912381"},
+    {"name": "Syed", "age": "26", "student_number": "0123912381"},
+    {"name": "Syed", "age": "26", "student_number": "0123912381"},
+    {"name": "Syed", "age": "26", "student_number": "0123912381"},
+    {"name": "Syed", "age": "26", "student_number": "0123912381"},
+    {"name": "Syed", "age": "26", "student_number": "0123912381"},
+    {"name": "Syed", "age": "26", "student_number": "0123912381"},
+    {"name": "Syed", "age": "26", "student_number": "0123912381"},
+    {"name": "Syed", "age": "26", "student_number": "0123912381"},
+    {"name": "Syed", "age": "26", "student_number": "0123912381"},
+    {"name": "Syed", "age": "26", "student_number": "0123912381"},
+    {"name": "Syed", "age": "26", "student_number": "0123912381"},
+    {"name": "Syed", "age": "26", "student_number": "0123912381"}
 ]
 
 # functions used
@@ -81,7 +97,6 @@ def f_add_new_student():
     p_student_id = len(l_students) - 1
     print("="*100)
     print("Student ID: " + str(p_student_id))
-    print(l_students[p_student_id])
     f_print_message("003")
 
 
